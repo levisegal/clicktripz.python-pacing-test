@@ -54,6 +54,8 @@ or `__init__`, but you can add new function methods as you see fit.
 
 ## Usage
 
+You will need to install [Docker](https://docs.docker.com/engine/installation/)
+
 See Makefile and Dockerfile.
 
 ## Turning it in
