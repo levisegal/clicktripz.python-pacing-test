@@ -64,5 +64,7 @@ Once your `Pacer` class is implemented, send the whole pacer.py file as
 an email to:
 
 > to: jobs@clicktripz.com
+
 > subject: \<Your Name\> Python Backend Test
+
 > body: any comments + gist of `Pacer` implementation
