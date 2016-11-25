@@ -63,6 +63,6 @@ an email to:
 
 > to: jobs@clicktripz.com
 
-> subject: \<Your Name\> Python Backend Test
+> subject: \<Your Name\> Python Pacing Test
 
 > body: any comments + gist of `Pacer` implementation
