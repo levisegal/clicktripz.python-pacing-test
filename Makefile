@@ -1,6 +1,6 @@
 IMAGE = clicktripz/python-test
 MOUNTDIRECTORY = /sample
-.PHONY: run build tty
+.PHONY: build tests tty
 
 build:
 	docker build --rm -t $(IMAGE) .
