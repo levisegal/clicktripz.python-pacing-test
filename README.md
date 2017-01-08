@@ -24,13 +24,12 @@ Some key points to know about ad networks (and this test) are:
 * How many impressions you can show at any time is purely based on the 
 type of websites you have in your network.
 
-* The bandwidth of impressions that you can show can change second to 
-second, and is impossible to predict.
+* The number of impressions you can show per second changes all the time, and is impossible to predict.
 
 * You won't be able to decide how much you want to slow down your 
 impression count on a real-time, impression to impression basis. You 
 need to allow some number N impressions to be shown before you can update
-your algorithm. This number N is based on the refresh rate of the campaign.
+your algorithm. This number N is a constant that you can't control (refresh rate).
 
 ## Test
 
@@ -55,6 +54,11 @@ or `__init__`, but you can add new function methods as you see fit.
 You will need to install [Docker](https://docs.docker.com/engine/installation/)
 
 See Makefile and Dockerfile.
+
+```
+# builds docker image tailored for this test
+$ make build
+```
 
 ## Turning it in
 
