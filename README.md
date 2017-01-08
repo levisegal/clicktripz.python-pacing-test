@@ -50,9 +50,9 @@ or `__init__`, but you can add new function methods as you see fit.
 
 * You cannot change campaign.py
 
-* Only standard libs
-
 ## Usage
+
+You will need to install [Docker](https://docs.docker.com/engine/installation/)
 
 See Makefile and Dockerfile.
 
@@ -62,5 +62,7 @@ Once your `Pacer` class is implemented, send the whole pacer.py file as
 an email to:
 
 > to: jobs@clicktripz.com
-> subject: \<Your Name\> Python Backend Test
+
+> subject: \<Your Name\> Python Pacing Test
+
 > body: any comments + gist of `Pacer` implementation
